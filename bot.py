@@ -118,4 +118,4 @@ async def on_ready():
 
 
 # ضع التوكن الخاص بك هنا
-bot.run('MTQ4Njc2MzQzNTkyNzc5NzkxMA.G6K9Ap.z0C0E0lubNFw8T9jQDjjBgVvmx_RvHfQhjLhoo')
+bot.run('YOUR_DISCORD_TOKEN_HERE')
