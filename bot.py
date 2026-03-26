@@ -7,6 +7,7 @@ from deep_translator import GoogleTranslator
 import urllib.request
 import re
 import random
+from keep_alive import keep_alive
 
 
 # 1. إعداد البوت مع الصلاحيات
