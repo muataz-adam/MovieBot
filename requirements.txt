@@ -1,4 +1,3 @@
 discord.py==2.3.2
 aiohttp==3.9.1
 deep-translator==1.11.4
-audioop-lts  # هذه المكتبة ستحل مشكلة النقص في الإصدارات الحديثة
