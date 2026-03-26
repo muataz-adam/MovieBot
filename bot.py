@@ -1,3 +1,4 @@
+import os
 import discord
 from discord import app_commands  # المكتبة المسؤولة عن السلاش
 from discord.ext import commands
@@ -118,4 +119,4 @@ async def on_ready():
 
 
 # ضع التوكن الخاص بك هنا
-bot.run('YOUR_DISCORD_TOKEN_HERE')
+bot.run(os.getenv('DISCORD_TOKEN'))
