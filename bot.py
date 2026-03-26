@@ -23,7 +23,7 @@ class MyBot(commands.Bot):
 
 
 bot = MyBot()
-OMDB_API_KEY = 'abda7299'
+OMDB_API_KEY = os.getenv('OMDB_API_KEY')
 
 
 # ---------------------------------------------------------
