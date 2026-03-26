@@ -119,5 +119,5 @@ async def on_ready():
     print(f'✅ {bot.user.name} جاهز بنظام السلاش!')
 
 
-# ضع التوكن الخاص بك هنا
+keep_alive() # هذا السطر سيخدع ريندر
 bot.run(os.getenv('DISCORD_TOKEN'))
